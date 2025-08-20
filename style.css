@@ -101,3 +101,16 @@ i.fa {
   box-shadow: 0 0 2px #888;
   padding: 0.5em 0.6em;
 }
+#box_in_edu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(96 139 168 / 0.2);
+  margin: 20%;
+}
