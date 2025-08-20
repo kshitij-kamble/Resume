@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    box-sizing:border-box;
+    line-height: 25px;
+ }
+
+body{
+    text-align: center;
+    margin-top: 2px;
+}
+#container{
+    width: 800px;
+    height: 950px;
+    display: flex;
+    margin-left: 500px;
+    flex-direction: row;
+    border: 2px solid black;
+}
+#box_image{
+    background: #fffad2;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-right: 2px solid black;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 5% 0% 10% 13% ;
+}
+#contact{
+    align-items: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background: #eafaff;
+}
+#name{
+    font-family:serif, 'Times New Roman', Times ;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15%;
+}
+.titles{
+    display: flex;
+    flex-direction: rows;
+    margin-top: 10%;
+    align-self: start; 
+    align-items: left;
+    background: #fffad2;
+    font-weight: 600;
+    margin-left: 100px;
+    width: 75%;
+    padding: 10px;
+   
+}
+.year{
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline;
+}
+.title_dis{
+    font-style: italic;
+}
+.description{
+    padding-left: 10%;
+    text-align: start;
+}
+#skill_box{
+    margin: 10px 10px 1px 1px;
+}
+#skill_list {
+        list-style-type: none;
+    }
+
+.container {
+  width: 90%; /* Full width */
+  background-color: #c5c0c0; /* Grey background */
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.coding {width: 90%; background-color: #474749;}  
+.com {width: 90%; background-color: #474749;}  
+.ppt {width: 65%; background-color: #474749;}  
+.ps {width: 80%; background-color: #474749;}  
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+}
+/* #edu_box{
+    display: flex;
+    flex-direction: column;
+} */
