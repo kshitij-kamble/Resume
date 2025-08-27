@@ -17,13 +17,20 @@ body{
     margin-left: 500px;
     flex-direction: row;
     border: 2px solid black;
+    flex: 100vh;
 }
-#box_image{
+#box_education{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+#left_box{
     background: #fffad2;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    /* width: 40%; */
     border-right: 2px solid black;
+    flex : 0.35;
 }
 
 img{
@@ -36,11 +43,13 @@ img{
 #contact{
     align-items: center;
 }
-#info{
+#right_box{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    /* width: 70%; */
     background: #eafaff;
+    gap: 10px;
+    flex: 0.65;
 }
 #name{
     font-family:serif, 'Times New Roman', Times ;
@@ -51,14 +60,13 @@ img{
 .titles{
     display: flex;
     flex-direction: rows;
-    margin-top: 10%;
     align-self: start; 
     align-items: left;
     background: #fffad2;
     font-weight: 600;
-    margin-left: 100px;
     width: 75%;
     padding: 10px;
+    gap:10px
    
 }
 .year{
@@ -103,8 +111,8 @@ i.fa {
 }
 #box_in_edu {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
   
 }
 
